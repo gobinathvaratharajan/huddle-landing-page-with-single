@@ -81,6 +81,16 @@ body {
     background-color: var(--clr-primay-600);
     font-family: var(--ff-base);
     color: var(--clr-primary-100);
+    background-image: url(./images/bg-desktop.svg);
+}
+
+.container {
+    padding: 2.5rem;
+}
+
+.logo {
+    width: 264px;
+    height: 49px;
 }
 
 .page {
@@ -93,13 +103,13 @@ body {
 
 .page__content {
     padding: 1rem;
+    max-width: 420px;
 }
 
 .page__title {
     font-weight: var(--fw-bold);
     font-size: 2rem;
     padding: 1.5rem 1rem 1rem;
-    max-width: 360px;
 }
 
 .page__desc {
@@ -127,6 +137,7 @@ body {
 @media (max-width: 600px) {
     .page__desc {
         text-align: center;
+        padding-bottom: 1.5rem;
     }
 
     .button {
