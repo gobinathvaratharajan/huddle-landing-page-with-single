@@ -85,13 +85,14 @@ body {
 
 .page {
     display: flex;
-    padding: 2.5rem;
+    padding: 2.5rem 0rem 0rem;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .page__content {
     padding: 1rem;
-    max-width: 480px;
 }
 
 .page__title {
@@ -126,5 +127,9 @@ body {
 @media (max-width: 600px) {
     .page__desc {
         text-align: center;
+    }
+
+    .button {
+        margin: 0 4rem;
     }
 }
